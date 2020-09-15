@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class Place: Codable {
+
+    let name: String
+    let formatted_address: String
+    let id: String
+    
+}

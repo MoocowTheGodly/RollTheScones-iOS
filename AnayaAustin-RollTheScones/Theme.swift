@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import UIKit
+
+class Theme: NSObject {
+    @objc dynamic var backgroundColor = UIColor()
+    @objc dynamic var fontColor = UIColor()
+    
+}
+

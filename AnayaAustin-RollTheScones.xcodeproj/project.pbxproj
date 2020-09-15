@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073B1D1E3691F566D60EDFAE /* Pods_AnayaAustin_RollTheScones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED5AEA86EB51A6AFDDEEA61 /* Pods_AnayaAustin_RollTheScones.framework */; };
+		9C13997924B6F7C7001B396D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C13997824B6F7C7001B396D /* Theme.swift */; };
+		9C48D51B24B692C70042544E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C48D51A24B692C70042544E /* AppDelegate.swift */; };
+		9C48D51D24B692C70042544E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C48D51C24B692C70042544E /* SceneDelegate.swift */; };
+		9C48D51F24B692C70042544E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C48D51E24B692C70042544E /* LoginViewController.swift */; };
+		9C48D52224B692C70042544E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C48D52024B692C70042544E /* Main.storyboard */; };
+		9C48D52524B692C70042544E /* AnayaAustin_RollTheScones.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C48D52324B692C70042544E /* AnayaAustin_RollTheScones.xcdatamodeld */; };
+		9C48D52A24B692C90042544E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C48D52824B692C90042544E /* LaunchScreen.storyboard */; };
+		9C48D53224B697940042544E /* ChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C48D53124B697940042544E /* ChoicesViewController.swift */; };
+		9C5853C824B71DFE000073C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5853C724B71DFE000073C7 /* Assets.xcassets */; };
+		9C5853CA24B71FD6000073C7 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5853C924B71FD6000073C7 /* AddressViewController.swift */; };
+		9CC3C27E24B69E8E00FF5B73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3C27D24B69E8E00FF5B73 /* GoogleService-Info.plist */; };
+		9CC3C28024B6B5B200FF5B73 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3C27F24B6B5B200FF5B73 /* SettingsViewController.swift */; };
+		9CC8823624B73BF500F1B4E8 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC8823524B73BF500F1B4E8 /* Place.swift */; };
+		9CC8823824B75BD700F1B4E8 /* SelectableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC8823724B75BD700F1B4E8 /* SelectableLabel.swift */; };
+		9CECF4C924B81C910013DDFC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9CECF4C824B81C910013DDFC /* README.md */; };
+		9CF92FCF24B7DF6800E4B3CA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF92FCE24B7DF6800E4B3CA /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B24B0DEE11018EDF8883BEC /* Pods-AnayaAustin-RollTheScones.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnayaAustin-RollTheScones.release.xcconfig"; path = "Target Support Files/Pods-AnayaAustin-RollTheScones/Pods-AnayaAustin-RollTheScones.release.xcconfig"; sourceTree = "<group>"; };
+		7ED5AEA86EB51A6AFDDEEA61 /* Pods_AnayaAustin_RollTheScones.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnayaAustin_RollTheScones.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9000CA83EE8560413AA2DE96 /* Pods-AnayaAustin-RollTheScones.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnayaAustin-RollTheScones.debug.xcconfig"; path = "Target Support Files/Pods-AnayaAustin-RollTheScones/Pods-AnayaAustin-RollTheScones.debug.xcconfig"; sourceTree = "<group>"; };
+		9C13997824B6F7C7001B396D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9C48D51724B692C70042544E /* AnayaAustin-RollTheScones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnayaAustin-RollTheScones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C48D51A24B692C70042544E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C48D51C24B692C70042544E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C48D51E24B692C70042544E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9C48D52124B692C70042544E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C48D52424B692C70042544E /* AnayaAustin_RollTheScones.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnayaAustin_RollTheScones.xcdatamodel; sourceTree = "<group>"; };
+		9C48D52924B692C90042544E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C48D52B24B692C90042544E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C48D53124B697940042544E /* ChoicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicesViewController.swift; sourceTree = "<group>"; };
+		9C5853C724B71DFE000073C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C5853C924B71FD6000073C7 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		9CC3C27D24B69E8E00FF5B73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9CC3C27F24B6B5B200FF5B73 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9CC8823524B73BF500F1B4E8 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		9CC8823724B75BD700F1B4E8 /* SelectableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableLabel.swift; sourceTree = "<group>"; };
+		9CECF4C824B81C910013DDFC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9CF92FCE24B7DF6800E4B3CA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C48D51424B692C70042544E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073B1D1E3691F566D60EDFAE /* Pods_AnayaAustin_RollTheScones.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3004539DB1DCFAA508BB94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ED5AEA86EB51A6AFDDEEA61 /* Pods_AnayaAustin_RollTheScones.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91B65DA8E40F790EF4C7AECA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9000CA83EE8560413AA2DE96 /* Pods-AnayaAustin-RollTheScones.debug.xcconfig */,
+				5B24B0DEE11018EDF8883BEC /* Pods-AnayaAustin-RollTheScones.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C48D50E24B692C70042544E = {
+			isa = PBXGroup;
+			children = (
+				9CECF4C824B81C910013DDFC /* README.md */,
+				9C48D51924B692C70042544E /* AnayaAustin-RollTheScones */,
+				9C48D51824B692C70042544E /* Products */,
+				91B65DA8E40F790EF4C7AECA /* Pods */,
+				8E3004539DB1DCFAA508BB94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C48D51824B692C70042544E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C48D51724B692C70042544E /* AnayaAustin-RollTheScones.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C48D51924B692C70042544E /* AnayaAustin-RollTheScones */ = {
+			isa = PBXGroup;
+			children = (
+				9C48D51A24B692C70042544E /* AppDelegate.swift */,
+				9C48D51C24B692C70042544E /* SceneDelegate.swift */,
+				9C48D52024B692C70042544E /* Main.storyboard */,
+				9CC3C27F24B6B5B200FF5B73 /* SettingsViewController.swift */,
+				9C48D51E24B692C70042544E /* LoginViewController.swift */,
+				9C48D53124B697940042544E /* ChoicesViewController.swift */,
+				9C5853C924B71FD6000073C7 /* AddressViewController.swift */,
+				9CF92FCE24B7DF6800E4B3CA /* MapViewController.swift */,
+				9CC8823724B75BD700F1B4E8 /* SelectableLabel.swift */,
+				9C13997824B6F7C7001B396D /* Theme.swift */,
+				9C5853C724B71DFE000073C7 /* Assets.xcassets */,
+				9CC8823524B73BF500F1B4E8 /* Place.swift */,
+				9C48D52824B692C90042544E /* LaunchScreen.storyboard */,
+				9C48D52B24B692C90042544E /* Info.plist */,
+				9CC3C27D24B69E8E00FF5B73 /* GoogleService-Info.plist */,
+				9C48D52324B692C70042544E /* AnayaAustin_RollTheScones.xcdatamodeld */,
+			);
+			path = "AnayaAustin-RollTheScones";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C48D51624B692C70042544E /* AnayaAustin-RollTheScones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C48D52E24B692C90042544E /* Build configuration list for PBXNativeTarget "AnayaAustin-RollTheScones" */;
+			buildPhases = (
+				66D4D45F3D264D422ACA80F9 /* [CP] Check Pods Manifest.lock */,
+				9C48D51324B692C70042544E /* Sources */,
+				9C48D51424B692C70042544E /* Frameworks */,
+				9C48D51524B692C70042544E /* Resources */,
+				30AFA87FDEA8A2F8AF03CA89 /* [CP] Embed Pods Frameworks */,
+				446E53A98ED64567F4257771 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnayaAustin-RollTheScones";
+			productName = "AnayaAustin-RollTheScones";
+			productReference = 9C48D51724B692C70042544E /* AnayaAustin-RollTheScones.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C48D50F24B692C70042544E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = anaya;
+				TargetAttributes = {
+					9C48D51624B692C70042544E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 9C48D51224B692C70042544E /* Build configuration list for PBXProject "AnayaAustin-RollTheScones" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C48D50E24B692C70042544E;
+			productRefGroup = 9C48D51824B692C70042544E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C48D51624B692C70042544E /* AnayaAustin-RollTheScones */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C48D51524B692C70042544E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C48D52A24B692C90042544E /* LaunchScreen.storyboard in Resources */,
+				9CC3C27E24B69E8E00FF5B73 /* GoogleService-Info.plist in Resources */,
+				9CECF4C924B81C910013DDFC /* README.md in Resources */,
+				9C5853C824B71DFE000073C7 /* Assets.xcassets in Resources */,
+				9C48D52224B692C70042544E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30AFA87FDEA8A2F8AF03CA89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnayaAustin-RollTheScones/Pods-AnayaAustin-RollTheScones-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnayaAustin-RollTheScones/Pods-AnayaAustin-RollTheScones-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnayaAustin-RollTheScones/Pods-AnayaAustin-RollTheScones-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		446E53A98ED64567F4257771 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnayaAustin-RollTheScones/Pods-AnayaAustin-RollTheScones-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnayaAustin-RollTheScones/Pods-AnayaAustin-RollTheScones-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnayaAustin-RollTheScones/Pods-AnayaAustin-RollTheScones-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66D4D45F3D264D422ACA80F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnayaAustin-RollTheScones-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C48D51324B692C70042544E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF92FCF24B7DF6800E4B3CA /* MapViewController.swift in Sources */,
+				9C48D52524B692C70042544E /* AnayaAustin_RollTheScones.xcdatamodeld in Sources */,
+				9C48D51F24B692C70042544E /* LoginViewController.swift in Sources */,
+				9C48D53224B697940042544E /* ChoicesViewController.swift in Sources */,
+				9C5853CA24B71FD6000073C7 /* AddressViewController.swift in Sources */,
+				9CC8823824B75BD700F1B4E8 /* SelectableLabel.swift in Sources */,
+				9C48D51B24B692C70042544E /* AppDelegate.swift in Sources */,
+				9C48D51D24B692C70042544E /* SceneDelegate.swift in Sources */,
+				9CC8823624B73BF500F1B4E8 /* Place.swift in Sources */,
+				9CC3C28024B6B5B200FF5B73 /* SettingsViewController.swift in Sources */,
+				9C13997924B6F7C7001B396D /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C48D52024B692C70042544E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C48D52124B692C70042544E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C48D52824B692C90042544E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C48D52924B692C90042544E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C48D52C24B692C90042544E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C48D52D24B692C90042544E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C48D52F24B692C90042544E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9000CA83EE8560413AA2DE96 /* Pods-AnayaAustin-RollTheScones.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YLC373GKJ8;
+				INFOPLIST_FILE = "AnayaAustin-RollTheScones/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.AnayaAustin-RollTheScones";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C48D53024B692C90042544E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B24B0DEE11018EDF8883BEC /* Pods-AnayaAustin-RollTheScones.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YLC373GKJ8;
+				INFOPLIST_FILE = "AnayaAustin-RollTheScones/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.AnayaAustin-RollTheScones";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C48D51224B692C70042544E /* Build configuration list for PBXProject "AnayaAustin-RollTheScones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C48D52C24B692C90042544E /* Debug */,
+				9C48D52D24B692C90042544E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C48D52E24B692C90042544E /* Build configuration list for PBXNativeTarget "AnayaAustin-RollTheScones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C48D52F24B692C90042544E /* Debug */,
+				9C48D53024B692C90042544E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9C48D52324B692C70042544E /* AnayaAustin_RollTheScones.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C48D52424B692C70042544E /* AnayaAustin_RollTheScones.xcdatamodel */,
+			);
+			currentVersion = 9C48D52424B692C70042544E /* AnayaAustin_RollTheScones.xcdatamodel */;
+			path = AnayaAustin_RollTheScones.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9C48D50F24B692C70042544E /* Project object */;
+}
